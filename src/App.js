@@ -1,11 +1,9 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import "./App.css";
 import Zoom from "./Zoom";
 
 const App = () => {
   const [joinMeeting, setJoinMeeting] = useState(false);
-
-  const handleJoinMeeting = () => {};
 
   return (
     <div className="App">

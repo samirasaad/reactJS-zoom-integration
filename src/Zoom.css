@@ -1,3 +1,15 @@
 #zmmtg-root {
   display: none;
 }
+
+#zmmtg-root .video-avatar__mute-button,
+#zmmtg-root .avatar-more,
+#zmmtg-root .avatar-more .dropdown-menu,
+#zmmtg-root .notification-message-wrap__layer,
+#zmmtg-root .show-tip-txt,
+#zmmtg-root .meeting-info-container.meeting-info-container--left-side,
+#zmmtg-root .video-avatar__avatar-name,
+#zmmtg-root .footer-button__button,
+#zmmtg-root .dropup.btn-group {
+  display: none !important;
+}
